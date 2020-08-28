@@ -1,1 +1,49 @@
 ---------------Aula01-Animações com jQuery-------------------------------------
+
+.show()
+    mostra o elemento
+    slideDown
+        tem a mesma funcionalidade
+        exibe de maneira mais suave
+        podemos passar um tempo em milesegundos
+
+.hide()
+    esconde o elemento
+
+.toggle()
+    adiciona ou esconde um elemento
+    semelhante ao toggleClass
+        mas ele só adiciona a classe
+
+    slideToggle
+        semelhante a função toggle
+        mas mostra de forma mais suave
+        em milesegundos     
+
+ overflow: scroll;
+    é css
+    permite colocar barra de rolagem
+
+
+Removendo com fade
+    .fadeOut()
+        vai removendo a opacidade do elemento
+        até um ponto e depois modifica sua propriedade display
+
+        funções semelhantes
+
+Melhorando a usabilidade
+    stop
+        animação que estiver acontecendo no momento é interrompida
+
+Animando o scroll
+    offset()
+        distancia em que o elemento está do topo e da esquerda da pagina
+
+    animate
+        recebe dois parametros
+            1-Objeto que contém as propriedades CSS a serem animadas e os seus valores
+                e o tempo de duração
+            2- Os seus valores e tempo de duração
+
+--------------------Buscando frases via Ajax-------------------------------------------------

@@ -12,8 +12,6 @@ function fraseAleatoria() {
         .always(function() { //sempre escondendo o spinner
             $('#spinner').toggle();
         });
-
-
 }
 
 function trocaFraseAleatoria(data) {

@@ -76,3 +76,5 @@ Implementando spinner
 Toggle do spinner
     always()
         Podemos chamar essa função depois do fail 
+
+        

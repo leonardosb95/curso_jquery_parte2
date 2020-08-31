@@ -88,3 +88,9 @@ function reiniciaJogo() {
     campo.removeClass("borda-vermelha"); //novo
     campo.removeClass("borda-verde"); //novo
 }
+
+
+function atualizaTempoInicial(tempo) {
+    tempoInicial = tempo;
+    $('#tempo-digitacao').text(tempo);
+}

@@ -46,4 +46,23 @@ Animando o scroll
                 e o tempo de duração
             2- Os seus valores e tempo de duração
 
---------------------Buscando frases via Ajax-------------------------------------------------
+--------------------Aula02-Buscando frases via Ajax-------------------------------------------------
+Trocando as frases
+    data
+        argumento responsavel por ter acesso aos dados retornados pela requisição
+
+Selecionando uma frase aleatória
+    Math.random
+        função que retorna um numero aleatorio
+    
+    Math.floor()
+        arredonda o número para baixo
+
+Arrumando tempo e texto
+
+ $.get('localhost:3000/frases')
+    faz a requisição via Ajax 
+
+
+
+-----------------Aula03-Tratando erros e melhorando a experiência-------------------------------------

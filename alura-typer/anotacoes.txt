@@ -66,3 +66,13 @@ Arrumando tempo e texto
 
 
 -----------------Aula03-Tratando erros e melhorando a experiência-------------------------------------
+ Lidando com erros
+    .fail()
+        garantimos que o usuario receba a mensagem de erro
+
+Implementando spinner
+    mostra uma imagem de carregando algo
+
+Toggle do spinner
+    always()
+        Podemos chamar essa função depois do fail 

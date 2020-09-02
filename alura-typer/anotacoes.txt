@@ -77,4 +77,15 @@ Toggle do spinner
     always()
         Podemos chamar essa função depois do fail 
 
-        
+
+
+-------------Aula04-Enviando dados com AJAX-----------------------------------------------------------
+ Buscando dados com get
+    
+    Preparando o HTML
+    adicionamos mais um botão
+
+    HTTP GET com Parâmetros
+        enviamos parametros do tipo id via GET
+
+

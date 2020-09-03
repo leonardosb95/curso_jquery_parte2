@@ -89,3 +89,6 @@ Toggle do spinner
         enviamos parametros do tipo id via GET
 
 
+-------------Aula05-Enviando dados com POST-----------------------------------------------------------
+each():
+    É a mesma parada do forEach

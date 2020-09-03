@@ -14,6 +14,8 @@ $(function() { //É uma função ready também
     inicializaCronometro();
     inicializaMarcadores();
     $("#botao-reiniciar").click(reiniciaJogo);
+
+    atualizaPlacar();
 });
 
 function atualizarTamanhoFrase() {
@@ -67,13 +69,18 @@ function inicializaCronometro() {
             if (tempoRestante < 1) {
                 campo.attr("disabled", true);
                 clearInterval(cronometroID);
-                //campo.css("background-color", "lightgray");
-                // campo.addClass("campo-desativado"); //Conseguimos chamar a folha de estilo estilos.css
-                campo.toggleClass("campo-desativado");
+                finalizaJogo();
             }
         }, 1000);
 
     });
+}
+
+function finalizaJogo() {
+    campo.attr('disabled', true);
+    campo.toggleClass("campo-desativado");
+    inserePlacar();
+
 }
 
 function reiniciaJogo() {

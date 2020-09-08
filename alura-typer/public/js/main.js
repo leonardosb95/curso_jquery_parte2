@@ -22,6 +22,10 @@ $(function() { //É uma função ready também
         sortField: 'text'
     });
 
+    $('.tooltip').tooltipster({
+        trigger: "custom"
+    });
+
 });
 
 function atualizarTamanhoFrase() {
@@ -37,8 +41,7 @@ function inicializaMarcadores() {
     var frase = $(".frase").text();
     campo.on("input", function() {
         var digitado = campo.val();
-        console.log(frase);
-        console.log(digitado);
+
         var comparavel = frase.substr(0, digitado.length);
 
         if (digitado == comparavel) {

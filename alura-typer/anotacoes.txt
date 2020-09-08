@@ -129,3 +129,11 @@ existem muitos plugins de carrousel
         pasta de distribuição
         aonde os usuarios precisam para instalar os plugins
 
+    tooltpster
+        serve para mostrar mensagem ao usuario
+        balãozinho que aparece
+        $('.tooltip').tooltipster('open').tooltipster("content", "Falha ao sicronizar")
+            Para criar uma mensagem no tooltipster via js
+        no HTML 
+            title="mensagem que vc quer"
+

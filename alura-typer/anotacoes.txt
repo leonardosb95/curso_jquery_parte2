@@ -113,3 +113,19 @@ CORS - Cross-Origin Resource Sharing
 existem muitos plugins de carrousel
     slick
         Plugin usado para carrousel
+
+    harcoded
+        preso no código
+
+    o materialize deixa por padrão os selects invisiveis
+
+    selectize
+        plugin que melhora os inputs do tipo select
+            create para permitir a criação de novos elementos
+            sortField para permitir a ordenação
+        tem que baixar o js standalone
+
+    pastinha dist
+        pasta de distribuição
+        aonde os usuarios precisam para instalar os plugins
+

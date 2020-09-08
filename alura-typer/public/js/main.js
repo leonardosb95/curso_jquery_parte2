@@ -16,6 +16,12 @@ $(function() { //É uma função ready também
     $("#botao-reiniciar").click(reiniciaJogo);
 
     atualizaPlacar();
+
+    $('#usuarios').selectize({
+        create: true,
+        sortField: 'text'
+    });
+
 });
 
 function atualizarTamanhoFrase() {

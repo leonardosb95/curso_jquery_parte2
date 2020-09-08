@@ -29,7 +29,7 @@ function novaLinha(usuario, palavras) {
     var colunaPalavras = $("<td>").text(palavras);
     var colunaRemover = $("<td>");
 
-    var link = $("<a>").attr("href", "#");
+    var link = $("<a>").addClass("botao-remover").attr("href", "#");
     var icone = $("<i>").addClass("small").addClass("material-icons").text("delete");
 
     link.append(icone);
@@ -44,9 +44,10 @@ function novaLinha(usuario, palavras) {
 
 
 function removeLinha() {
+
     event.preventDefault();
-    //$(this).parent().parent().remove();
     var linha = $(this).parent().parent();
+    console.log(linha);
     linha.fadeOut(1000);
     setTimeout(function() {
         linha.remove();

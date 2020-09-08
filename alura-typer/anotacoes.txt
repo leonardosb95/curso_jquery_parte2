@@ -92,3 +92,21 @@ Toggle do spinner
 -------------Aula05-Enviando dados com POST-----------------------------------------------------------
 each():
     É a mesma parada do forEach
+
+
+-------------Aula06-Same Origin Policy e Cors----------------------------------------------------------
+Same Origin Policy
+    navegador não permitiu a requisição para outro servidor
+        possui uma proteção
+        por padrão não permite chamar outro servidor que não seja da mesma origem
+        navegador não permite mudar o http para https
+        só pode fazer requisição para localhost na porta 3000
+        serve para evitar fraudes
+            aonde o usuario use um site que não seja a origem
+
+CORS - Cross-Origin Resource Sharing
+    adiciona cabeçalho na resposta HTTP
+    navegador permiti uma requisição para outra origem
+    Access-Control-Allow-Origin
+
+

@@ -2,7 +2,7 @@ $('#botao-frase').click(fraseAleatoria);
 $('#botao-frase-id').click(buscaFrase);
 
 function fraseAleatoria() {
-    $.get("http://localhost:3000/frases", trocaFraseAleatoria)
+    $.get("http://192.168.0.83/frases", trocaFraseAleatoria)
         .fail(function() {
             //$('#erro').show(); // ao falhar mostra a mensagem de erro
             $('#erro').toggle();
